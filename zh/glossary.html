@@ -48,10 +48,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
                 
             
@@ -379,29 +375,29 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#术语表"><b></b>术语表</a></li><ul><li><span class="title-icon "></span><a href="#费用相关"><b></b>费用相关</a></li><li><span class="title-icon "></span><a href="#账户与资产"><b></b>账户与资产</a></li><li><span class="title-icon "></span><a href="#质押状态"><b></b>质押状态</a></li><li><span class="title-icon "></span><a href="#步骤级状态"><b></b>步骤级状态</a></li><li><span class="title-icon "></span><a href="#任务级终态"><b></b>任务级终态</a></li></ul></ul></div><a href="#术语表" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="术语表"><a name="术语表" class="anchor-navigation-ex-anchor" href="#术语表"><i class="fa fa-link" aria-hidden="true"></i></a>术语表</h1>
+                                <h1 id="术语表">术语表</h1>
 <p>本页解释您在检测和恢复过程中可能看到的常见术语。</p>
-<h2 id="费用相关"><a name="费用相关" class="anchor-navigation-ex-anchor" href="#费用相关"><i class="fa fa-link" aria-hidden="true"></i></a>费用相关</h2>
+<h2 id="费用相关">费用相关</h2>
 <ul>
 <li><code>Service Fee</code>：服务费，恢复价值的 0.5%，最低 1 USDC。</li>
 <li><code>Withdrawal Fees</code>：提现手续费，Hyperliquid 每次提现 1 USDC，通常共 2 USDC。</li>
 <li><code>Total Cost</code>：总成本，<code>Service Fee + Withdrawal Fees</code>。</li>
 <li><code>You Will Receive</code>：用户预计/实际到账金额。</li>
 </ul>
-<h2 id="账户与资产"><a name="账户与资产" class="anchor-navigation-ex-anchor" href="#账户与资产"><i class="fa fa-link" aria-hidden="true"></i></a>账户与资产</h2>
+<h2 id="账户与资产">账户与资产</h2>
 <ul>
 <li><code>SPOT</code>：现货账户中的普通代币余额。</li>
 <li><code>PERP</code>：与永续交易相关的余额或持仓。</li>
 <li><code>VAULT</code>：存放在金库中的资产，其中部分资产可能暂时处于锁定状态。</li>
 <li><code>STAKED</code>：处于质押相关状态的 HYPE 余额。</li>
 </ul>
-<h2 id="质押状态"><a name="质押状态" class="anchor-navigation-ex-anchor" href="#质押状态"><i class="fa fa-link" aria-hidden="true"></i></a>质押状态</h2>
+<h2 id="质押状态">质押状态</h2>
 <ul>
 <li><code>HYPE-STAKED</code>：HYPE 仍处于质押中，暂时不能立即提现。</li>
 <li><code>HYPE-UNSTAKED</code>：HYPE 已离开主动质押阶段，可进入后续处理流程。</li>
 <li><code>HYPE-PENDING</code>：已发起提取，但仍处于等待期。</li>
 </ul>
-<h2 id="步骤级状态"><a name="步骤级状态" class="anchor-navigation-ex-anchor" href="#步骤级状态"><i class="fa fa-link" aria-hidden="true"></i></a>步骤级状态</h2>
+<h2 id="步骤级状态">步骤级状态</h2>
 <ul>
 <li><code>completed</code>：这一步已经成功完成。</li>
 <li><code>completed_partial</code>：这一步只完成了一部分，仍可能有资产需要后续处理。</li>
@@ -410,14 +406,14 @@
 <li><code>skipped_no_assets</code>：这一步被跳过，因为当前没有可处理资产。</li>
 <li><code>failed_*</code>：这一步执行失败，原因可能是系统、输入或网络问题。</li>
 </ul>
-<h2 id="任务级终态"><a name="任务级终态" class="anchor-navigation-ex-anchor" href="#任务级终态"><i class="fa fa-link" aria-hidden="true"></i></a>任务级终态</h2>
+<h2 id="任务级终态">任务级终态</h2>
 <ul>
 <li><code>completed</code>：本轮已有实际推进或实际恢复金额，且当前不需要立即再次运行。</li>
 <li><code>partial</code>：本轮只完成了一部分，或暂时还没有恢复金额，但仍有资产处于等待或受限状态。</li>
 <li><code>waiting_to_rerun</code>：本轮推进正常，但您仍需要等待一段时间后再次运行。</li>
 <li><code>failed</code>：本轮因严重错误而中断。</li>
 </ul>
-</body></html>
+
                                 
                                 </section>
                             
@@ -460,7 +456,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"术语表","level":"4.3","depth":1,"next":{"title":"文档更新日志","level":"4.4","depth":1,"path":"doc-changelog.md","ref":"doc-changelog.md","articles":[]},"previous":{"title":"功能特性","level":"4.2","depth":1,"path":"features.md","ref":"features.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","fontsettings","highlight","copy-code-button","expandable-chapters","back-to-top-button","chapter-fold","code","splitter","page-toc-button","anchor-navigation-ex"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"page-toc-button":{},"back-to-top-button":{},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","author":"Hyperliquid Recovery Team","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"botUrl":"https://t.me/HyperliquidRecoveryBot?start=vsAPDn_gitbook","version":"2.6.0","supportEmail":"support@hyperliquid-recovery.com"},"title":"Hyperliquid Recovery Bot User Guide","language":"zh","gitbook":"*","description":"Complete user guide for Hyperliquid Recovery Bot, helping users safely recover digital assets from high-risk flagged addresses"},"file":{"path":"glossary.md","mtime":"2026-05-07T18:24:42.455Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-05-07T18:24:43.091Z"},"basePath":".","book":{"language":"zh"}});
+            gitbook.page.hasChanged({"page":{"title":"术语表","level":"4.3","depth":1,"next":{"title":"文档更新日志","level":"4.4","depth":1,"path":"doc-changelog.md","ref":"doc-changelog.md","articles":[]},"previous":{"title":"功能特性","level":"4.2","depth":1,"path":"features.md","ref":"features.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","fontsettings","highlight","copy-code-button","expandable-chapters","back-to-top-button","chapter-fold","code","splitter","page-toc-button"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{},"back-to-top-button":{},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","author":"Hyperliquid Recovery Team","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"botUrl":"https://t.me/HyperliquidRecoveryBot?start=vsAPDn_gitbook","version":"2.6.0","supportEmail":"support@hyperliquid-recovery.com"},"title":"Hyperliquid Recovery Bot User Guide","language":"zh","gitbook":"*","description":"Complete user guide for Hyperliquid Recovery Bot, helping users safely recover digital assets from high-risk flagged addresses"},"file":{"path":"glossary.md","mtime":"2026-05-07T18:43:12.135Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-05-07T18:43:12.659Z"},"basePath":".","book":{"language":"zh"}});
         });
     </script>
 </div>

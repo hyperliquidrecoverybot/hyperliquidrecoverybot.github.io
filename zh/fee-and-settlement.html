@@ -48,10 +48,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
                 
             
@@ -379,9 +375,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#费用与到账"><b></b>费用与到账</a></li><ul><li><span class="title-icon "></span><a href="#费用术语"><b></b>费用术语</a></li><li><span class="title-icon "></span><a href="#费用结构"><b></b>费用结构</a></li><li><span class="title-icon "></span><a href="#计算公式"><b></b>计算公式</a></li><li><span class="title-icon "></span><a href="#示例"><b></b>示例</a></li><li><span class="title-icon "></span><a href="#结果页会如何显示"><b></b>结果页会如何显示</a></li><li><span class="title-icon "></span><a href="#注意事项"><b></b>注意事项</a></li></ul></ul></div><a href="#费用与到账" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="费用与到账"><a name="费用与到账" class="anchor-navigation-ex-anchor" href="#费用与到账"><i class="fa fa-link" aria-hidden="true"></i></a>费用与到账</h1>
+                                <h1 id="费用与到账">费用与到账</h1>
 <p>本文说明您可能支付的费用、费用如何计算，以及最终预计会收到多少资产。</p>
-<h2 id="费用术语"><a name="费用术语" class="anchor-navigation-ex-anchor" href="#费用术语"><i class="fa fa-link" aria-hidden="true"></i></a>费用术语</h2>
+<h2 id="费用术语">费用术语</h2>
 <ul>
 <li><code>Service Fee</code>：服务费，按恢复金额的 0.5% 计算，最低 1 USDC。</li>
 <li><code>Withdrawal Fees</code>：提现手续费，Hyperliquid 每次提现固定 1 USDC。</li>
@@ -389,19 +385,19 @@
 <li><code>You Will Receive</code>：用户预计到账，等于预估可恢复价值 - Total Cost。</li>
 </ul>
 <p>其中“预估可恢复价值”指本次实际能够处理的资产价值；仍处于锁定或等待状态的资产，暂时不会计入。</p>
-<h2 id="费用结构"><a name="费用结构" class="anchor-navigation-ex-anchor" href="#费用结构"><i class="fa fa-link" aria-hidden="true"></i></a>费用结构</h2>
+<h2 id="费用结构">费用结构</h2>
 <p>恢复通常包含两次提现，因此 <code>Withdrawal Fees = 2 USDC</code>：</p>
 <ol>
 <li>服务费提现：1 USDC 平台手续费</li>
 <li>最终提现：1 USDC 平台手续费</li>
 </ol>
-<h2 id="计算公式"><a name="计算公式" class="anchor-navigation-ex-anchor" href="#计算公式"><i class="fa fa-link" aria-hidden="true"></i></a>计算公式</h2>
+<h2 id="计算公式">计算公式</h2>
 <pre><code class="lang-text">Service Fee = max(预估可恢复价值 × 0.5%, 1 USDC)
 Withdrawal Fees = 2 USDC
 Total Cost = Service Fee + Withdrawal Fees
 You Will Receive = 预估可恢复价值 - Total Cost
 </code></pre>
-<h2 id="示例"><a name="示例" class="anchor-navigation-ex-anchor" href="#示例"><i class="fa fa-link" aria-hidden="true"></i></a>示例</h2>
+<h2 id="示例">示例</h2>
 <table>
 <thead>
 <tr>
@@ -436,20 +432,20 @@ You Will Receive = 预估可恢复价值 - Total Cost
 </tr>
 </tbody>
 </table>
-<h2 id="结果页会如何显示"><a name="结果页会如何显示" class="anchor-navigation-ex-anchor" href="#结果页会如何显示"><i class="fa fa-link" aria-hidden="true"></i></a>结果页会如何显示</h2>
+<h2 id="结果页会如何显示">结果页会如何显示</h2>
 <ul>
 <li>执行前：显示预估值（Estimated）。</li>
 <li>执行后：显示实际值（Actual）。</li>
 <li>预估与实际之间可能会因为执行期间价格变化而出现轻微差异。</li>
 </ul>
-<h2 id="注意事项"><a name="注意事项" class="anchor-navigation-ex-anchor" href="#注意事项"><i class="fa fa-link" aria-hidden="true"></i></a>注意事项</h2>
+<h2 id="注意事项">注意事项</h2>
 <ul>
 <li>地址检测永久免费。</li>
 <li>若本次没有成功处理任何资产，就不会产生不必要的服务费扣除。</li>
 <li>最终提现仍需满足 Hyperliquid 的最小提现要求（常见阈值 1.01 USDC）。</li>
 <li>提现发起后，到 Arbitrum 的到账时间取决于 Hyperliquid 的处理速度，可能需要几分钟到十几分钟。</li>
 </ul>
-</body></html>
+
                                 
                                 </section>
                             
@@ -492,7 +488,7 @@ You Will Receive = 预估可恢复价值 - Total Cost
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"费用与到账","level":"3.2","depth":1,"next":{"title":"执行状态说明","level":"3.3","depth":1,"path":"execution-status.md","ref":"execution-status.md","articles":[]},"previous":{"title":"资产恢复","level":"3.1","depth":1,"path":"asset-recovery.md","ref":"asset-recovery.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","fontsettings","highlight","copy-code-button","expandable-chapters","back-to-top-button","chapter-fold","code","splitter","page-toc-button","anchor-navigation-ex"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"page-toc-button":{},"back-to-top-button":{},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","author":"Hyperliquid Recovery Team","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"botUrl":"https://t.me/HyperliquidRecoveryBot?start=vsAPDn_gitbook","version":"2.6.0","supportEmail":"support@hyperliquid-recovery.com"},"title":"Hyperliquid Recovery Bot User Guide","language":"zh","gitbook":"*","description":"Complete user guide for Hyperliquid Recovery Bot, helping users safely recover digital assets from high-risk flagged addresses"},"file":{"path":"fee-and-settlement.md","mtime":"2026-05-07T18:24:42.455Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-05-07T18:24:43.091Z"},"basePath":".","book":{"language":"zh"}});
+            gitbook.page.hasChanged({"page":{"title":"费用与到账","level":"3.2","depth":1,"next":{"title":"执行状态说明","level":"3.3","depth":1,"path":"execution-status.md","ref":"execution-status.md","articles":[]},"previous":{"title":"资产恢复","level":"3.1","depth":1,"path":"asset-recovery.md","ref":"asset-recovery.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","fontsettings","highlight","copy-code-button","expandable-chapters","back-to-top-button","chapter-fold","code","splitter","page-toc-button"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{},"back-to-top-button":{},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","author":"Hyperliquid Recovery Team","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"botUrl":"https://t.me/HyperliquidRecoveryBot?start=vsAPDn_gitbook","version":"2.6.0","supportEmail":"support@hyperliquid-recovery.com"},"title":"Hyperliquid Recovery Bot User Guide","language":"zh","gitbook":"*","description":"Complete user guide for Hyperliquid Recovery Bot, helping users safely recover digital assets from high-risk flagged addresses"},"file":{"path":"fee-and-settlement.md","mtime":"2026-05-07T18:43:12.135Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-05-07T18:43:12.659Z"},"basePath":".","book":{"language":"zh"}});
         });
     </script>
 </div>

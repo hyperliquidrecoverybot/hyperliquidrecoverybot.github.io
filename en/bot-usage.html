@@ -48,10 +48,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
                 
             
@@ -379,9 +375,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#bot-usage"><b></b>Bot Usage</a></li><ul><li><span class="title-icon "></span><a href="#commands"><b></b>Commands</a></li><li><span class="title-icon "></span><a href="#standard-flow"><b></b>Standard Flow</a></li><li><span class="title-icon "></span><a href="#interaction-notes"><b></b>Interaction Notes</a></li><li><span class="title-icon "></span><a href="#output-reading"><b></b>Output Reading</a></li><li><span class="title-icon "></span><a href="#common-mistakes"><b></b>Common Mistakes</a></li><li><span class="title-icon "></span><a href="#related-pages"><b></b>Related Pages</a></li></ul></ul></div><a href="#bot-usage" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="bot-usage"><a name="bot-usage" class="anchor-navigation-ex-anchor" href="#bot-usage"><i class="fa fa-link" aria-hidden="true"></i></a>Bot Usage</h1>
+                                <h1 id="bot-usage">Bot Usage</h1>
 <p>This page explains key commands, the standard operating path, and how to read outputs.</p>
-<h2 id="commands"><a name="commands" class="anchor-navigation-ex-anchor" href="#commands"><i class="fa fa-link" aria-hidden="true"></i></a>Commands</h2>
+<h2 id="commands">Commands</h2>
 <table>
 <thead>
 <tr>
@@ -404,7 +400,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="standard-flow"><a name="standard-flow" class="anchor-navigation-ex-anchor" href="#standard-flow"><i class="fa fa-link" aria-hidden="true"></i></a>Standard Flow</h2>
+<h2 id="standard-flow">Standard Flow</h2>
 <ol>
 <li>Run <code>/start</code> to initialize session</li>
 <li>Run <code>/detect</code> to inspect asset structure</li>
@@ -412,14 +408,14 @@
 <li>Confirm plan and fee breakdown</li>
 <li>Wait for the guided recovery process to finish and keep the transaction hashes for later checking if needed</li>
 </ol>
-<h2 id="interaction-notes"><a name="interaction-notes" class="anchor-navigation-ex-anchor" href="#interaction-notes"><i class="fa fa-link" aria-hidden="true"></i></a>Interaction Notes</h2>
+<h2 id="interaction-notes">Interaction Notes</h2>
 <ul>
 <li>Detection is read-only and does not require private key.</li>
 <li>Recovery accepts private key or mnemonic.</li>
 <li>No destination address input is required; funds return to the same source address on Arbitrum.</li>
 <li>For lock/wait states, bot provides rerun timing guidance.</li>
 </ul>
-<h2 id="output-reading"><a name="output-reading" class="anchor-navigation-ex-anchor" href="#output-reading"><i class="fa fa-link" aria-hidden="true"></i></a>Output Reading</h2>
+<h2 id="output-reading">Output Reading</h2>
 <p>Focus on these fields after execution:</p>
 <ul>
 <li><code>Recovered Amount</code></li>
@@ -429,20 +425,20 @@
 <li>Transaction hashes if you want to verify the transfers yourself</li>
 </ul>
 <p>Arrival to Arbitrum is asynchronous after withdrawal submission and may take several to more than ten minutes depending on Hyperliquid processing.</p>
-<h2 id="common-mistakes"><a name="common-mistakes" class="anchor-navigation-ex-anchor" href="#common-mistakes"><i class="fa fa-link" aria-hidden="true"></i></a>Common Mistakes</h2>
+<h2 id="common-mistakes">Common Mistakes</h2>
 <ul>
 <li>Skipping detection before recovery, which can make you miss locked or waiting assets</li>
 <li>Treating estimated values as final actuals, even though prices may change slightly during execution</li>
 <li>Not checking whether the source address can receive normally on Arbitrum, which may cause confusion when waiting for arrival</li>
 </ul>
-<h2 id="related-pages"><a name="related-pages" class="anchor-navigation-ex-anchor" href="#related-pages"><i class="fa fa-link" aria-hidden="true"></i></a>Related Pages</h2>
+<h2 id="related-pages">Related Pages</h2>
 <ul>
 <li><a href="address-detection.html">Address Detection</a></li>
 <li><a href="asset-recovery.html">Asset Recovery</a></li>
 <li><a href="fee-and-settlement.html">Fee and Settlement</a></li>
 <li><a href="execution-status.html">Execution Status</a></li>
 </ul>
-</body></html>
+
                                 
                                 </section>
                             
@@ -485,7 +481,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Bot Usage","level":"4.1","depth":1,"next":{"title":"Features","level":"4.2","depth":1,"path":"features.md","ref":"features.md","articles":[]},"previous":{"title":"Address Detection","level":"3.5","depth":1,"path":"address-detection.md","ref":"address-detection.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","fontsettings","highlight","copy-code-button","expandable-chapters","back-to-top-button","chapter-fold","code","splitter","page-toc-button","anchor-navigation-ex"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"page-toc-button":{},"back-to-top-button":{},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","author":"Hyperliquid Recovery Team","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"botUrl":"https://t.me/HyperliquidRecoveryBot?start=vsAPDn_gitbook","version":"2.6.0","supportEmail":"support@hyperliquid-recovery.com"},"title":"Hyperliquid Recovery Bot User Guide","language":"en","gitbook":"*","description":"Complete user guide for Hyperliquid Recovery Bot, helping users safely recover digital assets from high-risk flagged addresses"},"file":{"path":"bot-usage.md","mtime":"2026-05-07T18:24:42.449Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-05-07T18:24:43.091Z"},"basePath":".","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"Bot Usage","level":"4.1","depth":1,"next":{"title":"Features","level":"4.2","depth":1,"path":"features.md","ref":"features.md","articles":[]},"previous":{"title":"Address Detection","level":"3.5","depth":1,"path":"address-detection.md","ref":"address-detection.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","fontsettings","highlight","copy-code-button","expandable-chapters","back-to-top-button","chapter-fold","code","splitter","page-toc-button"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{},"back-to-top-button":{},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","author":"Hyperliquid Recovery Team","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"botUrl":"https://t.me/HyperliquidRecoveryBot?start=vsAPDn_gitbook","version":"2.6.0","supportEmail":"support@hyperliquid-recovery.com"},"title":"Hyperliquid Recovery Bot User Guide","language":"en","gitbook":"*","description":"Complete user guide for Hyperliquid Recovery Bot, helping users safely recover digital assets from high-risk flagged addresses"},"file":{"path":"bot-usage.md","mtime":"2026-05-07T18:43:12.129Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-05-07T18:43:12.659Z"},"basePath":".","book":{"language":"en"}});
         });
     </script>
 </div>

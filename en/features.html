@@ -48,10 +48,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
                 
             
@@ -379,9 +375,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#features"><b></b>Features</a></li><ul><li><span class="title-icon "></span><a href="#core-capabilities"><b></b>Core Capabilities</a></li><li><span class="title-icon "></span><a href="#supported-scenarios"><b></b>Supported Scenarios</a></li><li><span class="title-icon "></span><a href="#protocol-boundaries"><b></b>Protocol Boundaries</a></li><li><span class="title-icon "></span><a href="#fee-transparency"><b></b>Fee Transparency</a></li><li><span class="title-icon "></span><a href="#security-model"><b></b>Security Model</a></li><li><span class="title-icon "></span><a href="#out-of-scope"><b></b>Out of Scope</a></li><li><span class="title-icon "></span><a href="#recommended-reading"><b></b>Recommended Reading</a></li></ul></ul></div><a href="#features" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="features"><a name="features" class="anchor-navigation-ex-anchor" href="#features"><i class="fa fa-link" aria-hidden="true"></i></a>Features</h1>
+                                <h1 id="features">Features</h1>
 <p>This page defines product capabilities and operational boundaries.</p>
-<h2 id="core-capabilities"><a name="core-capabilities" class="anchor-navigation-ex-anchor" href="#core-capabilities"><i class="fa fa-link" aria-hidden="true"></i></a>Core Capabilities</h2>
+<h2 id="core-capabilities">Core Capabilities</h2>
 <ul>
 <li>Multi-account detection across Spot / Perp / Vault / Staked</li>
 <li>Standardized 7-step recovery execution</li>
@@ -389,43 +385,43 @@
 <li>Step-level execution status with next-action hints</li>
 <li>On-chain verifiability via transaction hashes</li>
 </ul>
-<h2 id="supported-scenarios"><a name="supported-scenarios" class="anchor-navigation-ex-anchor" href="#supported-scenarios"><i class="fa fa-link" aria-hidden="true"></i></a>Supported Scenarios</h2>
+<h2 id="supported-scenarios">Supported Scenarios</h2>
 <ul>
 <li>Address is flagged and typically cannot be fully operated in frontend</li>
 <li>Need unified conversion to USDC and final withdrawal</li>
 <li>Need auditable and repeatable recovery flow</li>
 </ul>
-<h2 id="protocol-boundaries"><a name="protocol-boundaries" class="anchor-navigation-ex-anchor" href="#protocol-boundaries"><i class="fa fa-link" aria-hidden="true"></i></a>Protocol Boundaries</h2>
+<h2 id="protocol-boundaries">Protocol Boundaries</h2>
 <ul>
 <li>No bypass of protocol rules (lockup, waiting windows, min withdrawal)</li>
 <li>Locked assets are deferred until unlock</li>
 <li>Staked assets may require 2-3 runs depending on current state</li>
 </ul>
-<h2 id="fee-transparency"><a name="fee-transparency" class="anchor-navigation-ex-anchor" href="#fee-transparency"><i class="fa fa-link" aria-hidden="true"></i></a>Fee Transparency</h2>
+<h2 id="fee-transparency">Fee Transparency</h2>
 <ul>
 <li>Service Fee: 0.5%, minimum 1 USDC</li>
 <li>Withdrawal Fees: 2 USDC (two withdrawals)</li>
 <li>Estimated values shown before execution, actual values after execution</li>
 </ul>
-<h2 id="security-model"><a name="security-model" class="anchor-navigation-ex-anchor" href="#security-model"><i class="fa fa-link" aria-hidden="true"></i></a>Security Model</h2>
+<h2 id="security-model">Security Model</h2>
 <ul>
 <li>Use only the official bot entry</li>
 <li>Never provide your private key or mnemonic outside the bot's official recovery flow</li>
 <li>Use transaction hashes and on-chain results to verify completed actions</li>
 </ul>
-<h2 id="out-of-scope"><a name="out-of-scope" class="anchor-navigation-ex-anchor" href="#out-of-scope"><i class="fa fa-link" aria-hidden="true"></i></a>Out of Scope</h2>
+<h2 id="out-of-scope">Out of Scope</h2>
 <ul>
 <li>No investment advice</li>
 <li>No override of protocol lock/unlock mechanics</li>
 <li>No guarantee of instant completion under external network instability</li>
 </ul>
-<h2 id="recommended-reading"><a name="recommended-reading" class="anchor-navigation-ex-anchor" href="#recommended-reading"><i class="fa fa-link" aria-hidden="true"></i></a>Recommended Reading</h2>
+<h2 id="recommended-reading">Recommended Reading</h2>
 <ul>
 <li><a href="asset-recovery.html">Asset Recovery</a></li>
 <li><a href="fee-and-settlement.html">Fee and Settlement</a></li>
 <li><a href="security-and-privacy.html">Security and Privacy</a></li>
 </ul>
-</body></html>
+
                                 
                                 </section>
                             
@@ -468,7 +464,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Features","level":"4.2","depth":1,"next":{"title":"Glossary","level":"4.3","depth":1,"path":"glossary.md","ref":"glossary.md","articles":[]},"previous":{"title":"Bot Usage","level":"4.1","depth":1,"path":"bot-usage.md","ref":"bot-usage.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","fontsettings","highlight","copy-code-button","expandable-chapters","back-to-top-button","chapter-fold","code","splitter","page-toc-button","anchor-navigation-ex"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"page-toc-button":{},"back-to-top-button":{},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","author":"Hyperliquid Recovery Team","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"botUrl":"https://t.me/HyperliquidRecoveryBot?start=vsAPDn_gitbook","version":"2.6.0","supportEmail":"support@hyperliquid-recovery.com"},"title":"Hyperliquid Recovery Bot User Guide","language":"en","gitbook":"*","description":"Complete user guide for Hyperliquid Recovery Bot, helping users safely recover digital assets from high-risk flagged addresses"},"file":{"path":"features.md","mtime":"2026-05-07T18:24:42.451Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-05-07T18:24:43.091Z"},"basePath":".","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"Features","level":"4.2","depth":1,"next":{"title":"Glossary","level":"4.3","depth":1,"path":"glossary.md","ref":"glossary.md","articles":[]},"previous":{"title":"Bot Usage","level":"4.1","depth":1,"path":"bot-usage.md","ref":"bot-usage.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","fontsettings","highlight","copy-code-button","expandable-chapters","back-to-top-button","chapter-fold","code","splitter","page-toc-button"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{},"back-to-top-button":{},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","author":"Hyperliquid Recovery Team","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"botUrl":"https://t.me/HyperliquidRecoveryBot?start=vsAPDn_gitbook","version":"2.6.0","supportEmail":"support@hyperliquid-recovery.com"},"title":"Hyperliquid Recovery Bot User Guide","language":"en","gitbook":"*","description":"Complete user guide for Hyperliquid Recovery Bot, helping users safely recover digital assets from high-risk flagged addresses"},"file":{"path":"features.md","mtime":"2026-05-07T18:43:12.130Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-05-07T18:43:12.659Z"},"basePath":".","book":{"language":"en"}});
         });
     </script>
 </div>

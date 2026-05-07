@@ -48,10 +48,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
                 
             
@@ -379,9 +375,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#execution-status"><b></b>Execution Status</a></li><ul><li><span class="title-icon "></span><a href="#task-level-outcomes"><b></b>Task-Level Outcomes</a></li><li><span class="title-icon "></span><a href="#step-level-statuses"><b></b>Step-Level Statuses</a></li><li><span class="title-icon "></span><a href="#status-matrix"><b></b>Status Matrix</a></li><li><span class="title-icon "></span><a href="#typical-interpretations"><b></b>Typical Interpretations</a></li><li><span class="title-icon "></span><a href="#when-to-rerun-recovery"><b></b>When to Rerun Recovery</a></li></ul></ul></div><a href="#execution-status" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="execution-status"><a name="execution-status" class="anchor-navigation-ex-anchor" href="#execution-status"><i class="fa fa-link" aria-hidden="true"></i></a>Execution Status</h1>
+                                <h1 id="execution-status">Execution Status</h1>
 <p>The recovery system uses two layers of status:<a href="glossary.html#step-level-statuses" class="glossary-term" title="">step-level statuses</a>describe each operation, while<a href="glossary.html#task-level-outcomes" class="glossary-term" title="">task-level outcomes</a>explain how to understand the entire recovery run and what to do next.</p>
-<h2 id="task-level-outcomes"><a name="task-level-outcomes" class="anchor-navigation-ex-anchor" href="#task-level-outcomes"><i class="fa fa-link" aria-hidden="true"></i></a>Task-Level Outcomes</h2>
+<h2 id="task-level-outcomes">Task-Level Outcomes</h2>
 <table>
 <thead>
 <tr>
@@ -413,8 +409,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="step-level-statuses"><a name="step-level-statuses" class="anchor-navigation-ex-anchor" href="#step-level-statuses"><i class="fa fa-link" aria-hidden="true"></i></a>Step-Level Statuses</h2>
-<h2 id="status-matrix"><a name="status-matrix" class="anchor-navigation-ex-anchor" href="#status-matrix"><i class="fa fa-link" aria-hidden="true"></i></a>Status Matrix</h2>
+<h2 id="step-level-statuses">Step-Level Statuses</h2>
+<h2 id="status-matrix">Status Matrix</h2>
 <table>
 <thead>
 <tr>
@@ -475,21 +471,21 @@
 </tr>
 </tbody>
 </table>
-<h2 id="typical-interpretations"><a name="typical-interpretations" class="anchor-navigation-ex-anchor" href="#typical-interpretations"><i class="fa fa-link" aria-hidden="true"></i></a>Typical Interpretations</h2>
+<h2 id="typical-interpretations">Typical Interpretations</h2>
 <ul>
 <li><code>⚠️ completed_partial</code>: common when only part of vault/staking assets are currently executable.</li>
 <li><code>⏰ completed_waiting</code>: common in staking, where execution succeeds but unlock windows remain (for example, 1-day or 7-day waiting periods).</li>
 <li><code>🔒 skipped_locked</code>: not a hard failure; it indicates protocol lock state.</li>
 <li>If the whole run is only <code>skipped_*</code> and no funds are actually recovered, the task-level outcome becomes <code>partial</code>, not <code>completed</code>.</li>
 </ul>
-<h2 id="when-to-rerun-recovery"><a name="when-to-rerun-recovery" class="anchor-navigation-ex-anchor" href="#when-to-rerun-recovery"><i class="fa fa-link" aria-hidden="true"></i></a>When to Rerun Recovery</h2>
+<h2 id="when-to-rerun-recovery">When to Rerun Recovery</h2>
 <ul>
 <li>If the task-level outcome is <code>waiting_to_rerun</code>, rerun after the suggested unlock time.</li>
 <li>If the task-level outcome is <code>completed</code>, no immediate extra action is usually required.</li>
 <li>If the task-level outcome is <code>partial</code>, review the remaining issues before deciding whether to rerun now.</li>
 <li>If step outputs include <code>failed_*</code> and the task-level outcome is <code>failed</code>, resolve the root cause first, then rerun.</li>
 </ul>
-</body></html>
+
                                 
                                 </section>
                             
@@ -532,7 +528,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Execution Status","level":"3.3","depth":1,"next":{"title":"Security and Privacy","level":"3.4","depth":1,"path":"security-and-privacy.md","ref":"security-and-privacy.md","articles":[]},"previous":{"title":"Fee and Settlement","level":"3.2","depth":1,"path":"fee-and-settlement.md","ref":"fee-and-settlement.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","fontsettings","highlight","copy-code-button","expandable-chapters","back-to-top-button","chapter-fold","code","splitter","page-toc-button","anchor-navigation-ex"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"page-toc-button":{},"back-to-top-button":{},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","author":"Hyperliquid Recovery Team","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"botUrl":"https://t.me/HyperliquidRecoveryBot?start=vsAPDn_gitbook","version":"2.6.0","supportEmail":"support@hyperliquid-recovery.com"},"title":"Hyperliquid Recovery Bot User Guide","language":"en","gitbook":"*","description":"Complete user guide for Hyperliquid Recovery Bot, helping users safely recover digital assets from high-risk flagged addresses"},"file":{"path":"execution-status.md","mtime":"2026-05-07T18:24:42.450Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-05-07T18:24:43.091Z"},"basePath":".","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"Execution Status","level":"3.3","depth":1,"next":{"title":"Security and Privacy","level":"3.4","depth":1,"path":"security-and-privacy.md","ref":"security-and-privacy.md","articles":[]},"previous":{"title":"Fee and Settlement","level":"3.2","depth":1,"path":"fee-and-settlement.md","ref":"fee-and-settlement.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","fontsettings","highlight","copy-code-button","expandable-chapters","back-to-top-button","chapter-fold","code","splitter","page-toc-button"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{},"back-to-top-button":{},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","author":"Hyperliquid Recovery Team","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"botUrl":"https://t.me/HyperliquidRecoveryBot?start=vsAPDn_gitbook","version":"2.6.0","supportEmail":"support@hyperliquid-recovery.com"},"title":"Hyperliquid Recovery Bot User Guide","language":"en","gitbook":"*","description":"Complete user guide for Hyperliquid Recovery Bot, helping users safely recover digital assets from high-risk flagged addresses"},"file":{"path":"execution-status.md","mtime":"2026-05-07T18:43:12.130Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-05-07T18:43:12.659Z"},"basePath":".","book":{"language":"en"}});
         });
     </script>
 </div>
