@@ -219,21 +219,69 @@ body {
 @media (max-width: 900px) {
   html,
   body {
+    height: auto;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
     font-size: 16px;
   }
 
-  .book.with-summary .book-summary {
+  .book {
     position: relative;
+    min-height: 100vh;
+    height: auto;
+    overflow: visible;
+  }
+
+  .book.with-summary {
+    overflow: visible;
+  }
+
+  .book.with-summary .book-summary {
+    float: none;
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
     width: auto;
     height: auto;
-    max-height: none;
-    overflow: visible;
+    max-height: 42vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .book.with-summary .book-body,
   .book:not(.with-summary) .book-body {
     position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
     left: 0;
+    float: none;
+    clear: both;
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+    overflow: visible;
+  }
+
+  .book .book-body .body-inner {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    overflow: visible;
+  }
+
+  .book .book-body .page-wrapper {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    overflow: visible;
   }
 
   .book .book-body .page-wrapper .page-inner,
