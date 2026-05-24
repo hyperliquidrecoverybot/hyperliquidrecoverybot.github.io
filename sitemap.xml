@@ -2,77 +2,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hyperliquidrecoverybot.github.io/</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://hyperliquidrecoverybot.github.io/en/</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/en/address-detection.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/en/address-detection</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/en/asset-recovery.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/en/asset-recovery</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/en/bot-usage.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/en/bot-usage</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/en/doc-changelog.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/en/doc-changelog</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/en/execution-status.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/en/execution-status</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/en/faq.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/en/faq</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/en/features.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/en/features</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/en/fee-and-settlement.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/en/fee-and-settlement</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/en/glossary.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/en/glossary</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/en/quick-start.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/en/quick-start</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/en/security-and-privacy.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/en/security-and-privacy</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://hyperliquidrecoverybot.github.io/zh/</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/zh/address-detection.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/zh/address-detection</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/zh/asset-recovery.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/zh/asset-recovery</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/zh/bot-usage.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/zh/bot-usage</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/zh/doc-changelog.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/zh/doc-changelog</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/zh/execution-status.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/zh/execution-status</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/zh/faq.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/zh/faq</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/zh/features.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/zh/features</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/zh/fee-and-settlement.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/zh/fee-and-settlement</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/zh/glossary.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/zh/glossary</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/zh/quick-start.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/zh/quick-start</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hyperliquidrecoverybot.github.io/zh/security-and-privacy.html</loc>
+    <loc>https://hyperliquidrecoverybot.github.io/zh/security-and-privacy</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
